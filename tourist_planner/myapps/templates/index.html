@@ -1,7 +1,7 @@
 {% extends "bootstrap/base.html" %}
 
 {% block title %}
-Simple Example
+Example
 {% endblock title %}
 {% block content %}
 <h1>Это стартовая страница приложения</h1>
@@ -9,7 +9,7 @@ Simple Example
 {% if users %}
   <p class="text-center" style="color:green">На данный момент нашими пользователями являются:</p>
 {% for user in users %}
-    <p class="text-left" >{{user.name}}</p>
+    <p class="text-left" style="font-size:12,color:red">{{user.name}}  {{user.login}}</p>
 {% endfor %}
 {% else %}
     <p class="text-left" >На данный момент нет ни одного пользователя </p>
