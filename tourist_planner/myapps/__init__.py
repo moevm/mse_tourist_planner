@@ -31,3 +31,6 @@ def home_page():
 
 from myapps.Users.view import user as userModule
 app.register_blueprint(userModule)
+
+from myapps.preference.view import preference as preferenceModule
+app.register_blueprint(preferenceModule)
