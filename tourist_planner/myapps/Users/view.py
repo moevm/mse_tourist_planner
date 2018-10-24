@@ -1,10 +1,7 @@
 from myapps.Users.models import User
-from flask_login import current_user, login_user
 from flask import redirect, request, Blueprint, flash, g, session, url_for, render_template
-from myapps import app
 from myapps.Users.decorator import requires_login
 from myapps.Users.forms import LoginForm, RegisterForm
-from myapps import db
 
 user = Blueprint('users', __name__, url_prefix='/users')
 

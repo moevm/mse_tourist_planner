@@ -1,0 +1,23 @@
+ {% extends "base.html" %}
+    {% block content %}
+ {% from "_formhelpers.html" import render_field %}
+       <div class="container">
+      <div class="row">
+          <div class="col-sm-2 col-md-2 col-lg-2"></div>
+            <div class="col-xs-12 col-sm-10 col-md-8 col-lg-8">
+                <div class="container-fluid" style="font-size: 14pt">
+                    <form method=post>
+                    <dl>
+                    {{ render_field(form.start_date, class="input", type="date") }}
+                    {{ render_field(form.end_date, class="input", type ="date") }}
+                    {{ render_field(form.climate) }}
+                    {{ render_field(form.place) }}
+                        {{render_field(form.money)}}
+                    </dl>
+                        <p><input type=submit value=Сохранить></p>
+                    </form>
+                </div>
+            </div>
+      </div>
+       </div>
+    {% endblock %}
