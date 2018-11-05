@@ -5,6 +5,7 @@ https://docs.google.com/presentation/d/1dLA5Zbl31n2BI0_apdgr-h92MP_q-FGb3oKKEZQh
 
 
 Инструкция по развертыванию python (необязательно, если уже имеется нужная версия и зависимости):
+* `sudo apt-get update`  
 * Установка python и pip:  
 ` sudo apt-get install python3 pip3`
 * Создание виртуального окружения:  
