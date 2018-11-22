@@ -1,0 +1,65 @@
+@background_color_1: #ccc;
+@background_color_2: white;
+@background_color_3: #2196F3;
+
+/* Rounded sliders */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+}
+.image {
+    max-width: 540px;
+    max-height: 400px;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: @background_color_1;
+    -webkit-transition: .4s;
+    transition: .4s;
+&:before {
+     position: absolute;
+     content: "";
+     height: 26px;
+     width: 26px;
+     left: 4px;
+     bottom: 4px;
+     background-color: @background_color_2;
+     -webkit-transition: .4s;
+     transition: .4s;
+ }
+}
+input {
+&:checked {
+&+.slider {
+     background-color: @background_color_3;
+&:before {
+     -webkit-transform: translateX(26px);
+     -ms-transform: translateX(26px);
+     transform: translateX(26px);
+ }
+}
+}
+&:focus {
+&+.slider {
+     box-shadow: 0 0 1px #2196F3;
+ }
+}
+}
+.slider.round {
+    border-radius: 34px;
+&:before {
+     border-radius: 50%;
+ }
+}
