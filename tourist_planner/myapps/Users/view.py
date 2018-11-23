@@ -1,10 +1,7 @@
 from myapps.Users.models import User
-from flask_login import current_user, login_user
 from flask import redirect, request, Blueprint, flash, g, session, url_for, render_template
-from myapps import app
 from myapps.Users.decorator import requires_login
 from myapps.Users.forms import LoginForm, RegisterForm
-from myapps import db
 
 user = Blueprint('users', __name__, url_prefix='/users')
 
@@ -37,15 +34,14 @@ def logout():
 
 @user.route('/login/', methods=['GET', 'POST'])
 def login():
-    form = LoginForm(request.form)
-    if request.method == "POST" and form.validate():
-        user = User.objects(login=form.login.data).first()
-        if user and user.password == form.password.data:
-            session['user_id'] = user.login
-            flash('Welcome %s', user.name)
-            return redirect(url_for('users.home'))
-        flash('Wrong email or password')
-    return render_template("Users/login.html", form=form)
+    print(request)
+    user = User.objects(login=request.args.get('login')).first()
+    if user and user.password == request.args.get('password'):
+        session['user_id'] = user.login
+        flash('Welcome %s', user.name)
+        return redirect(url_for('users.home'))
+    flash('Wrong email or password')
+    return render_template("Users/login.html")
 
 
 @user.route('/register/', methods=['POST', 'GET'])

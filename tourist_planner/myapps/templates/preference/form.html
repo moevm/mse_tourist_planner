@@ -1,0 +1,36 @@
+ {% extends "base.html" %}
+
+ {% block title %}
+    <link href="/static/main/css/prefform.css" rel="stylesheet">
+    <script src="/static/main/js/pref.js"></script>
+ {% endblock %}
+ {% block content %}
+       <div class="container">
+      <div class="row">
+                <div class="container-fluid" style="font-size: 14pt">
+                   <form class="transparent" method="post" action="/preference/add">
+                     <div id="params">
+                       <div class="form-inner">
+                        <h3>Поиск отеля</h3>
+                         <label>Дата заселения</label>
+                         <input type="date" id="start_date" name="start_date">
+                         <label>Дата выселения</label>
+                         <input type="date" id="end_date" name="end_date">
+                         <label>Минимальная цена</label>
+                         <input type="number" id="min_price" name="min_price" min="0">
+                         <label>Максимальная цена</label>
+                         <input type="number" id="max_price" name="max_price" min="0">
+                         <label>Город</label>
+                         <input type="text" id="city" name="city">
+                         <button type="button" class="btn btn-primary" id="getreq">Получить</button>
+                           <div class="collapse" id="hide" style="color: black">
+                               <div id="for_select">
+                               </div>
+                               <div id="card"></div>
+                           </div>
+                        <input type="submit" value="Отправить">
+                     </div>
+                    </form>
+                </div>
+       </div>
+    {% endblock %}

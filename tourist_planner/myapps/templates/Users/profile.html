@@ -1,8 +1,25 @@
 {% extends "base.html" %}
+{% block title %}
+
+    <link rel="stylesheet" href="/static/main/css/colums.css">
+{% endblock %}
+
    {% block content %}
-<div class="row">
-    <p>
-        Hi {{ user.login}}
-    </p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-2 colum">
+            <p>
+            </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-8 colum">
+            <p style="font-size: 16pt;text-align:center" id="hello">
+            Hi {{ user.login}}
+            </p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-2 colum">
+            <p>
+            </p>
+        </div>
+    </div>
 </div>
    {% endblock %}

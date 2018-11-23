@@ -1,0 +1,29 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<style>
+    .p {
+        margin:10px;
+        }
+</style>
+{% endblock title %}
+{% block content %}
+<div class="container">
+    <form action="/user/add" method="post">
+        <div>
+            <p></p>
+            <p><input type="text" name = "login"></p>
+        </div>
+        <div>
+            <p><input type="text" name = "password"></p>
+        </div>
+        <div>
+            <p><input type="text" name = "name"></p>
+        </div>
+        <input type="submit">SignUp
+    </form>
+</div>
+{% endblock content %}
