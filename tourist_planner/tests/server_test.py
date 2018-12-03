@@ -18,7 +18,7 @@ class BasicTest(unittest.TestCase):
         self.driver.close()
 
 
-class UseTest(unittest.TestCase):
+class UserTest(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Firefox()

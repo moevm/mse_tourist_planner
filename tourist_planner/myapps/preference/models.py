@@ -14,5 +14,3 @@ class Preference(Document):
     hotel_picture = StringField(max_length=100, required=True)
     hotel_price = IntField(min_value=0, required=True)
 
-
-
