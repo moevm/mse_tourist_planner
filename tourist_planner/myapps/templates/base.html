@@ -6,30 +6,29 @@
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <link href="/static/main/bootstrap/js/bootstrap.js" rel="stylesheet">
     <link href="/static/main/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/static/main/css/navbar.css" rel="stylesheet">
+    <script src="/static/main/js/navbar.js"></script>
     {% block title %} {% endblock %}
 </head>
 <body>
-    <nav class="navbar" style="background-color: #0f0f0f">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#navbar-main">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"> </span>
-                </button>
-                <a class="navbar-brand" href="/" style="color: white">Tourist planner</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-main">
-                    <ul class="nav navbar-nav">
-                        <li class="pull-right"><a href="/users/login/" style="color: white">Log in</a></li>
-                        <li class="pull-right"><a href="/users/logout/" style="color: white">Log out</a></li>
-                        <li class="pull-right"><a href="/users/me/" style="color: white">My profile</a></li>
-                        <li class="pull-right"><a href="/preference/" style="color: white">Add interests</a></li>
-                    </ul>
-            </div>
-        </div>
-    </nav>
+    <div class='nav'>
+  <ul>
+    <li><a href="/">Турестический планеровщик</a></li>
+    <li><a href="/users/me/" id="profilebtn">Профиль</a>
+    <ul>
+        <li><a href="/preference/" id="prefbtn" >Предпочтения</a></li>
+        <li><a href="/preference/add">Добавить предпочтения</a></li>
+      </ul>
+    </li>
+    <li class="pull-right"><a class="navbar-brand" href="#"><img src="/static/images/door_icon.png"></a>
+        <ul>
+      <li><a href="/users/login/" id="loginbtn">Вход</a></li>
+            <li><a href="/users/logout/" id="logoutbtn">Выход</a></li>
+      </ul>
+    </li>
+    <li class='lamp'><span></span></li>
+  </ul>
+</div>
     {% block content %}{% endblock %}
 </body>
 </html>

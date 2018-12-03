@@ -1,23 +1,39 @@
  {% extends "base.html" %}
-    {% block content %}
- {% from "_formhelpers.html" import render_field %}
+
+ {% block title %}
+    <link href="/static/main/css/prefform.css" rel="stylesheet">
+    <script src="/static/main/js/pref.js"></script>
+ {% endblock %}
+ {% block content %}
        <div class="container">
       <div class="row">
-          <div class="col-sm-2 col-md-2 col-lg-2"></div>
-            <div class="col-xs-12 col-sm-10 col-md-8 col-lg-8">
                 <div class="container-fluid" style="font-size: 14pt">
-                    <form method=post>
-                    <dl>
-                    {{ render_field(form.start_date, class="input", type="date") }}
-                    {{ render_field(form.end_date, class="input", type ="date") }}
-                    {{ render_field(form.climate) }}
-                    {{ render_field(form.place) }}
-                        {{render_field(form.money)}}
-                    </dl>
-                        <p><input type=submit value=Сохранить></p>
+                   <form id="myform" class="transparent" method="post" action="/preference/form_add">
+                     <div id="params">
+                       <div class="form-inner">
+                        <h3>Поиск отеля</h3>
+                         <label>Дата заселения</label>
+                         <input type="date" id="start_date" name="start_date">
+                         <label>Дата выселения</label>
+                         <input type="date" id="end_date" name="end_date">
+                         <label>Минимальная цена</label>
+                         <input type="number" id="min_price" name="min_price" min="0">
+                         <label>Максимальная цена</label>
+                         <input type="number" id="max_price" name="max_price" min="0">
+                         <label>Город</label>
+                         <input type="text" id="city" name="city">
+                         <button type="button" class="btn btn-primary" id="getreq">Получить</button>
+                           <input type="hidden" id="other-fields" name="other_fields">
+                           <div class="collapse" id="hide" style="color: black">
+                               <div id="for_select">
+                                   <select id="hotel" name="hotel" style="max-width:250px"></select>;
+                               </div>
+                               <div id="card"></div>
+                           </div>
+                        <input id="submit_btn" type="submit" value="Отправить">
+                     </div>
                     </form>
                 </div>
-            </div>
       </div>
        </div>
     {% endblock %}

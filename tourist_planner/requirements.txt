@@ -2,6 +2,4 @@ Flask
 Flask-Bcrypt
 Flask-Bootstrap
 flask-mongoengine
-Flask-PyMongo
 mongoengine
-pymongo

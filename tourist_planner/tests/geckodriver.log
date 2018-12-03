@@ -1,0 +1,702 @@
+1540488014545	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ahzfISfgak1x"
+
+(firefox:4010): Gtk-WARNING **: 20:20:19.059: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4010): Gtk-WARNING **: 20:20:19.059: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540488021714	Marionette	INFO	Listening on port 46705
+1540488021805	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540488021873	Marionette	DEBUG	[2147483649] Frame script loaded
+1540488021960	Marionette	DEBUG	[2147483649] Frame script registered
+1540488022043	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540488022142	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540488022451	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/
+1540488022500	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/
+1540488022531	Marionette	INFO	Stopped listening on port 46705
+1540488024232	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.F7bqvSx43lfp"
+
+(firefox:4845): Gtk-WARNING **: 20:20:24.825: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4845): Gtk-WARNING **: 20:20:24.825: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540488025962	Marionette	INFO	Listening on port 37527
+1540488026127	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540488026221	Marionette	DEBUG	[2147483649] Frame script loaded
+1540488026224	Marionette	DEBUG	[2147483649] Frame script registered
+1540488026285	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540488026533	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540488026736	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540488026881	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540488026906	Marionette	INFO	Stopped listening on port 37527
+[Parent 4845, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540488251886	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SQDFaEe4xW31"
+
+(firefox:6060): Gtk-WARNING **: 20:24:12.511: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:6060): Gtk-WARNING **: 20:24:12.511: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540488253663	Marionette	INFO	Listening on port 44511
+1540488253695	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540488253750	Marionette	DEBUG	[2147483649] Frame script loaded
+1540488253814	Marionette	DEBUG	[2147483649] Frame script registered
+1540488253874	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540488253906	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540488254126	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/
+1540488254221	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/
+1540488254270	Marionette	INFO	Stopped listening on port 44511
+JavaScript error: resource:///modules/SavantShieldStudy.jsm, line 171: TypeError: this.addonListener is undefined
+1540488255885	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3rOfg7TVh7VD"
+
+(firefox:6827): Gtk-WARNING **: 20:24:16.483: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:6827): Gtk-WARNING **: 20:24:16.483: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540488257766	Marionette	INFO	Listening on port 34367
+1540488257798	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540488257873	Marionette	DEBUG	[2147483649] Frame script loaded
+1540488257882	Marionette	DEBUG	[2147483649] Frame script registered
+1540488257925	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540488257966	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540488258230	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540488258370	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540488258555	Marionette	INFO	Stopped listening on port 34367
+
+(/usr/lib/firefox/firefox:6905): dconf-WARNING **: 20:24:18.732: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1540488856649	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Aj0oELM49rjz"
+
+(firefox:7985): Gtk-WARNING **: 20:34:17.248: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:7985): Gtk-WARNING **: 20:34:17.248: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540488858384	Marionette	INFO	Listening on port 45905
+1540488858528	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540488858584	Marionette	DEBUG	[2147483649] Frame script loaded
+1540488858591	Marionette	DEBUG	[2147483649] Frame script registered
+1540488858629	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540488858728	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540488858994	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/
+1540488859023	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/
+1540488859068	Marionette	INFO	Stopped listening on port 45905
+1540488860688	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.I5AtpybOO3Sq"
+
+(firefox:8773): Gtk-WARNING **: 20:34:21.284: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:8773): Gtk-WARNING **: 20:34:21.284: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540488862493	Marionette	INFO	Listening on port 40831
+1540488862679	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540488862750	Marionette	DEBUG	[2147483649] Frame script loaded
+1540488862754	Marionette	DEBUG	[2147483649] Frame script registered
+1540488862778	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540488862796	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540488863036	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540488863099	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540488863221	Marionette	INFO	Stopped listening on port 40831
+
+(/usr/lib/firefox/firefox:8855): dconf-WARNING **: 20:34:23.270: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 8773, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540489015199	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zYdo3IhcFL4G"
+
+(firefox:9689): Gtk-WARNING **: 20:36:55.785: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:9689): Gtk-WARNING **: 20:36:55.785: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540489016938	Marionette	INFO	Listening on port 34225
+1540489017077	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540489017137	Marionette	DEBUG	[2147483649] Frame script loaded
+1540489017140	Marionette	DEBUG	[2147483649] Frame script registered
+1540489017189	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540489017232	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540489022525	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/
+1540489022543	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/
+1540489022556	Marionette	INFO	Stopped listening on port 34225
+[Parent 9689, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540489024164	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WR9FrlGTvlM5"
+
+(firefox:10477): Gtk-WARNING **: 20:37:04.779: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:10477): Gtk-WARNING **: 20:37:04.779: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540489025961	Marionette	INFO	Listening on port 38347
+1540489025981	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540489026035	Marionette	DEBUG	[2147483649] Frame script loaded
+1540489026134	Marionette	DEBUG	[2147483649] Frame script registered
+1540489026198	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540489026228	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540489026478	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540489026528	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540489026662	Marionette	INFO	Stopped listening on port 38347
+
+(/usr/lib/firefox/firefox:10559): dconf-WARNING **: 20:37:06.707: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1540489096780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hnAhEwZKtyAK"
+
+(firefox:11308): Gtk-WARNING **: 20:38:17.389: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:11308): Gtk-WARNING **: 20:38:17.390: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540489098524	Marionette	INFO	Listening on port 38617
+1540489098673	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540489098735	Marionette	DEBUG	[2147483649] Frame script loaded
+1540489098749	Marionette	DEBUG	[2147483649] Frame script registered
+1540489098778	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540489098860	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540489099131	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/
+1540489099168	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/
+1540489099302	Marionette	INFO	Stopped listening on port 38617
+[Parent 11308, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540489100897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pj6UuBD46bIR"
+
+(firefox:12104): Gtk-WARNING **: 20:38:21.492: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:12104): Gtk-WARNING **: 20:38:21.492: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540489102606	Marionette	INFO	Listening on port 37633
+1540489102725	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540489102781	Marionette	DEBUG	[2147483649] Frame script loaded
+1540489102785	Marionette	DEBUG	[2147483649] Frame script registered
+1540489102826	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540489102852	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540489103107	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540489103148	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540489103331	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/register/
+1540489103415	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/register/
+1540489103416	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/register/
+1540489103465	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/me/
+1540489103473	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/me/
+1540489103498	Marionette	INFO	Stopped listening on port 37633
+[Parent 12104, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540489144735	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IcWl82UzV87c"
+
+(firefox:12942): Gtk-WARNING **: 20:39:05.333: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:12942): Gtk-WARNING **: 20:39:05.333: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540489146994	Marionette	INFO	Listening on port 39011
+1540489147049	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540489147105	Marionette	DEBUG	[2147483649] Frame script loaded
+1540489147111	Marionette	DEBUG	[2147483649] Frame script registered
+1540489147129	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540489147248	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540489147504	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/
+1540489147537	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/
+1540489147573	Marionette	INFO	Stopped listening on port 39011
+[Parent 12942, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540489149180	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UomtlN4z5bgk"
+
+(firefox:13744): Gtk-WARNING **: 20:39:10.079: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:13744): Gtk-WARNING **: 20:39:10.079: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540489151334	Marionette	INFO	Listening on port 45259
+1540489151455	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540489151529	Marionette	DEBUG	[2147483649] Frame script loaded
+1540489151550	Marionette	DEBUG	[2147483649] Frame script registered
+1540489151576	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540489151611	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540489151790	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540489151857	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540489152125	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/register/
+1540489152198	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/register/
+1540489152199	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/register/
+1540489152247	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540489152258	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540489152272	Marionette	INFO	Stopped listening on port 45259
+[Parent 13744, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540489229239	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IaH4g3A4CZXv"
+
+(firefox:14595): Gtk-WARNING **: 20:40:29.824: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:14595): Gtk-WARNING **: 20:40:29.824: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540489231008	Marionette	INFO	Listening on port 41171
+1540489231046	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540489231109	Marionette	DEBUG	[2147483649] Frame script loaded
+1540489231217	Marionette	DEBUG	[2147483649] Frame script registered
+1540489231281	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540489231403	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540489231581	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/
+1540489231608	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/
+1540489231642	Marionette	INFO	Stopped listening on port 41171
+[Parent 14595, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540489233257	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ejisGeDt7Fl1"
+
+(firefox:15383): Gtk-WARNING **: 20:40:33.858: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15383): Gtk-WARNING **: 20:40:33.858: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540489235014	Marionette	INFO	Listening on port 37101
+1540489235154	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540489235243	Marionette	DEBUG	[2147483649] Frame script loaded
+1540489235244	Marionette	DEBUG	[2147483649] Frame script registered
+1540489235264	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540489235282	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540489235536	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540489235576	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540489235722	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/register/
+1540489235743	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/register/
+1540489235744	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/register/
+1540489235799	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540489235811	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540489235825	Marionette	INFO	Stopped listening on port 37101
+1540489270575	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Xl1eU6VoJECK"
+
+(firefox:16183): Gtk-WARNING **: 20:41:11.179: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16183): Gtk-WARNING **: 20:41:11.179: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540489272270	Marionette	INFO	Listening on port 43453
+1540489272282	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540489272345	Marionette	DEBUG	[2147483649] Frame script loaded
+1540489272432	Marionette	DEBUG	[2147483649] Frame script registered
+1540489272469	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540489272493	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540489272769	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/
+1540489272791	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/
+1540489272808	Marionette	INFO	Stopped listening on port 43453
+1540489274434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gcTHip4v69LH"
+
+(firefox:16947): Gtk-WARNING **: 20:41:15.040: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16947): Gtk-WARNING **: 20:41:15.040: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540489276188	Marionette	INFO	Listening on port 41643
+1540489276326	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540489276395	Marionette	DEBUG	[2147483649] Frame script loaded
+1540489276405	Marionette	DEBUG	[2147483649] Frame script registered
+1540489276432	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540489276456	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540489276754	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540489276790	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540489276903	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/register/
+1540489276924	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/register/
+1540489276925	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/register/
+1540489276968	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540489276978	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540489276996	Marionette	INFO	Stopped listening on port 41643
+[Parent 16947, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540489362827	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3wNCcL0H2vPC"
+
+(firefox:17780): Gtk-WARNING **: 20:42:43.420: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:17780): Gtk-WARNING **: 20:42:43.420: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540489364583	Marionette	INFO	Listening on port 38651
+1540489364726	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540489364811	Marionette	DEBUG	[2147483649] Frame script loaded
+1540489364813	Marionette	DEBUG	[2147483649] Frame script registered
+1540489364829	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540489364843	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540489365138	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/
+1540489365187	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/
+1540489365225	Marionette	INFO	Stopped listening on port 38651
+[Parent 17780, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540489366861	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9Ek5Egw6iWuG"
+
+(firefox:18565): Gtk-WARNING **: 20:42:47.481: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:18565): Gtk-WARNING **: 20:42:47.481: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540489368619	Marionette	INFO	Listening on port 32937
+1540489368748	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540489368831	Marionette	DEBUG	[2147483649] Frame script loaded
+1540489368842	Marionette	DEBUG	[2147483649] Frame script registered
+1540489368876	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540489368945	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540489369339	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540489369364	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540489369473	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/register/
+1540489369503	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/register/
+1540489369504	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/register/
+1540489369551	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/me/
+1540489369561	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/me/
+1540489369592	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/me/
+1540489369611	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/me/
+1540489369612	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/me/
+1540489369655	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540489369667	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540489369690	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540489369704	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540489369704	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540489369745	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540489369754	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540489369765	Marionette	INFO	Stopped listening on port 32937
+[Parent 18565, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540493623608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rva9jWTHaCCZ"
+
+(firefox:21341): Gtk-WARNING **: 21:53:44.345: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:21341): Gtk-WARNING **: 21:53:44.345: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540493625604	Marionette	INFO	Listening on port 37563
+1540493625629	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540493625706	Marionette	DEBUG	[2147483649] Frame script loaded
+1540493625777	Marionette	DEBUG	[2147483649] Frame script registered
+1540493625811	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540493625853	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540493626200	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/
+1540493626261	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/
+1540493626349	Marionette	INFO	Stopped listening on port 37563
+[Parent 21341, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540493628108	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YpApm8zZJQNq"
+
+(firefox:22128): Gtk-WARNING **: 21:53:48.701: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:22128): Gtk-WARNING **: 21:53:48.701: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540493629872	Marionette	INFO	Listening on port 43125
+1540493630005	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540493630095	Marionette	DEBUG	[2147483649] Frame script loaded
+1540493630097	Marionette	DEBUG	[2147483649] Frame script registered
+1540493630119	Marionette	INFO	Stopped listening on port 43125
+1540493630156	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+1540493631728	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.d1QDUhJqmkJ4"
+
+(firefox:22680): Gtk-WARNING **: 21:53:52.332: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:22680): Gtk-WARNING **: 21:53:52.332: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540493633459	Marionette	INFO	Listening on port 38061
+1540493633584	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540493633645	Marionette	DEBUG	[2147483649] Frame script loaded
+1540493633646	Marionette	DEBUG	[2147483649] Frame script registered
+1540493633671	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540493633712	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540493633971	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540493634022	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540493634190	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/register/
+1540493634207	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/register/
+1540493634207	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/register/
+1540493634253	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540493634263	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540493634282	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/register/
+1540493634296	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/register/
+1540493634336	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/
+1540493634345	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/
+1540493634393	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/login/
+1540493634417	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/login/
+1540493634417	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/login/
+1540493634465	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/me/
+1540493634474	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/me/
+1540493634503	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/me/
+1540493634529	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/me/
+1540493634530	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/me/
+1540493634566	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493634584	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493634604	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493634621	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493634621	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493634650	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493634661	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493634686	Marionette	INFO	Stopped listening on port 38061
+[Parent 22680, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540493702952	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1ZdRwXp9m20y"
+
+(firefox:23512): Gtk-WARNING **: 21:55:03.561: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:23512): Gtk-WARNING **: 21:55:03.561: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540493704734	Marionette	INFO	Listening on port 34739
+1540493704765	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540493704822	Marionette	DEBUG	[2147483649] Frame script loaded
+1540493704891	Marionette	DEBUG	[2147483649] Frame script registered
+1540493704911	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540493704984	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540493705223	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/
+1540493705354	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/
+1540493705412	Marionette	INFO	Stopped listening on port 34739
+1540493707137	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SfGAhmsozD3A"
+
+(firefox:24297): Gtk-WARNING **: 21:55:07.788: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:24297): Gtk-WARNING **: 21:55:07.788: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540493708951	Marionette	INFO	Listening on port 45395
+1540493709082	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540493709145	Marionette	DEBUG	[2147483649] Frame script loaded
+1540493709147	Marionette	DEBUG	[2147483649] Frame script registered
+1540493709189	Marionette	INFO	Stopped listening on port 45395
+1540493709235	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+JavaScript error: resource:///modules/SavantShieldStudy.jsm, line 171: TypeError: this.addonListener is undefined
+1540493709812	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XbZBTkUbvcql"
+
+(firefox:24856): Gtk-WARNING **: 21:55:10.472: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:24856): Gtk-WARNING **: 21:55:10.472: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540493711656	Marionette	INFO	Listening on port 33189
+1540493711769	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540493711820	Marionette	DEBUG	[2147483649] Frame script loaded
+1540493711825	Marionette	DEBUG	[2147483649] Frame script registered
+1540493711842	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540493711881	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540493712103	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540493712241	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540493712413	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/register/
+1540493712439	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/register/
+1540493712440	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/register/
+1540493712495	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540493712508	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540493712528	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/register/
+1540493712533	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/register/
+1540493712583	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/
+1540493712593	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/
+1540493712651	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/login/
+1540493712668	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/login/
+1540493712668	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/login/
+1540493712710	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/me/
+1540493712718	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/me/
+1540493712745	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/me/
+1540493712765	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/me/
+1540493712765	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/me/
+1540493712804	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493712822	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493712846	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493712859	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493712859	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493712893	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493712900	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493712911	Marionette	INFO	Stopped listening on port 33189
+[Parent 24856, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540493780247	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6ygEzbjRO4gc"
+
+(firefox:25700): Gtk-WARNING **: 21:56:20.865: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:25700): Gtk-WARNING **: 21:56:20.865: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540493782044	Marionette	INFO	Listening on port 46285
+1540493782055	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540493782113	Marionette	DEBUG	[2147483649] Frame script loaded
+1540493782187	Marionette	DEBUG	[2147483649] Frame script registered
+1540493782228	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540493782293	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540493782648	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/
+1540493782672	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/
+1540493782722	Marionette	INFO	Stopped listening on port 46285
+[Parent 25700, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540493784358	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TEKf9K5Zo7NT"
+
+(firefox:26487): Gtk-WARNING **: 21:56:24.958: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:26487): Gtk-WARNING **: 21:56:24.958: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540493786124	Marionette	INFO	Listening on port 36119
+1540493786257	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540493786332	Marionette	DEBUG	[2147483649] Frame script loaded
+1540493786352	Marionette	DEBUG	[2147483649] Frame script registered
+1540493786393	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540493786507	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540493786721	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/?next=%2Fpreference%2F
+1540493786762	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/?next=%2Fpreference%2F
+1540493786808	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/login/?next=%2Fpreference%2F
+1540493786823	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/login/?next=%2Fpreference%2F
+1540493786884	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/
+1540493786894	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/
+1540493786968	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/login/
+1540493786993	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/login/
+1540493786994	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/login/
+1540493787040	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/me/
+1540493787050	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/me/
+1540493787064	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/me/
+1540493787071	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/me/
+1540493787114	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/preference/
+1540493787164	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/preference/
+1540493787172	Marionette	INFO	Stopped listening on port 36119
+1540493787778	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.67vgRXPi4A80"
+
+(firefox:27284): Gtk-WARNING **: 21:56:28.422: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:27284): Gtk-WARNING **: 21:56:28.422: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540493789638	Marionette	INFO	Listening on port 42799
+1540493789803	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540493789874	Marionette	DEBUG	[2147483649] Frame script loaded
+1540493789879	Marionette	DEBUG	[2147483649] Frame script registered
+1540493789992	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540493790018	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540493790247	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540493790282	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540493790429	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/register/
+1540493790459	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/register/
+1540493790460	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/register/
+1540493790512	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540493790524	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540493790538	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/register/
+1540493790547	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/register/
+1540493790594	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/
+1540493790605	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/
+1540493790658	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/login/
+1540493790672	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/login/
+1540493790672	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/login/
+1540493790713	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/me/
+1540493790728	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/me/
+1540493790754	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/me/
+1540493790779	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/me/
+1540493790779	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/me/
+1540493790816	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493790829	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493790851	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493790868	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493790869	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493790902	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493790911	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540493790918	Marionette	INFO	Stopped listening on port 42799
+[Parent 27284, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540494032875	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lUyY0AeIh08L"
+
+(firefox:28220): Gtk-WARNING **: 22:00:33.485: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:28220): Gtk-WARNING **: 22:00:33.485: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540494034565	Marionette	INFO	Listening on port 38891
+1540494034589	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540494034638	Marionette	DEBUG	[2147483649] Frame script loaded
+1540494034643	Marionette	DEBUG	[2147483649] Frame script registered
+1540494034675	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540494034691	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540494034920	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/
+1540494034938	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/
+1540494034978	Marionette	INFO	Stopped listening on port 38891
+[Parent 28220, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540494036601	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.W5t0n4tAkKm6"
+
+(firefox:28410): Gtk-WARNING **: 22:00:37.195: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:28410): Gtk-WARNING **: 22:00:37.195: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540494038274	Marionette	INFO	Listening on port 34587
+1540494038312	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540494038360	Marionette	DEBUG	[2147483649] Frame script loaded
+1540494038360	Marionette	DEBUG	[2147483649] Frame script registered
+1540494038382	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540494038402	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540494038563	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/?next=%2Fpreference%2F
+1540494038588	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/?next=%2Fpreference%2F
+1540494038630	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/login/?next=%2Fpreference%2F
+1540494038647	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/login/?next=%2Fpreference%2F
+1540494038702	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/
+1540494038718	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/
+1540494038791	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/login/
+1540494038812	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/login/
+1540494038813	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/login/
+1540494038858	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/me/
+1540494038868	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/me/
+1540494038883	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/me/
+1540494038918	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/me/
+1540494038987	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/preference/
+1540494039044	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/preference/
+1540494039051	Marionette	INFO	Stopped listening on port 34587
+1540494039659	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TOM89OHy92EM"
+
+(firefox:28617): Gtk-WARNING **: 22:00:40.247: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:28617): Gtk-WARNING **: 22:00:40.247: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540494041282	Marionette	INFO	Listening on port 38903
+1540494041376	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540494041428	Marionette	DEBUG	[2147483649] Frame script loaded
+1540494041429	Marionette	DEBUG	[2147483649] Frame script registered
+1540494041447	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540494041462	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540494041637	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540494041664	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540494041796	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/register/
+1540494041818	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/register/
+1540494041819	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/register/
+1540494041868	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/register/
+1540494041882	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/register/
+1540494041898	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/register/
+1540494041906	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/register/
+1540494041957	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/
+1540494041967	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/
+1540494042029	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/login/
+1540494042046	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/login/
+1540494042047	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/login/
+1540494042086	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/me/
+1540494042096	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/me/
+1540494042121	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/me/
+1540494042148	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/me/
+1540494042148	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/me/
+1540494042181	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540494042197	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540494042218	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540494042236	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540494042236	Marionette	DEBUG	[2147483649] Received DOM event unload for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540494042267	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540494042277	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://localhost:8080/users/login/?next=%2Fusers%2Fme%2F
+1540494042284	Marionette	INFO	Stopped listening on port 38903
+[Parent 28617, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540554156655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4mm8Qwpu0Pnq"
+
+(firefox:2394): Gtk-WARNING **: 14:42:38.292: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:2394): Gtk-WARNING **: 14:42:38.292: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540554159722	Marionette	INFO	Listening on port 46723
+1540554159769	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540554159827	Marionette	DEBUG	[2147483649] Frame script loaded
+1540554159839	Marionette	DEBUG	[2147483649] Frame script registered
+1540554159856	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540554159913	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540554159962	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540554160171	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=connectionFailure&u=http%3A//localhost%3A8080/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8080.
+1540554160282	Marionette	INFO	Stopped listening on port 46723
+[Parent 2394, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540554161881	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xUXZWgzZdllr"
+
+(firefox:2612): Gtk-WARNING **: 14:42:42.459: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:2612): Gtk-WARNING **: 14:42:42.459: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540554163497	Marionette	INFO	Listening on port 38031
+1540554163599	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540554163648	Marionette	DEBUG	[2147483649] Frame script loaded
+1540554163649	Marionette	DEBUG	[2147483649] Frame script registered
+1540554163660	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540554163668	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540554163669	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540554163698	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=connectionFailure&u=http%3A//localhost%3A8080/preference/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8080.
+1540554163723	Marionette	INFO	Stopped listening on port 38031
+1540554163755	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 632))
+console.error: (new Error("Transaction canceled due to a closed connection.", "resource://gre/modules/Sqlite.jsm", 569))
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBDatabase::Msg_PBackgroundIDBTransactionConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBTransaction::Msg_PBackgroundIDBRequestConstructor Route error: message sent to unknown actor ID
+
+1540554165320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ayXuGzAPZW5V"
+
+(firefox:2778): Gtk-WARNING **: 14:42:45.913: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:2778): Gtk-WARNING **: 14:42:45.913: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540554166949	Marionette	INFO	Listening on port 38859
+1540554167046	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540554167094	Marionette	DEBUG	[2147483649] Frame script loaded
+1540554167095	Marionette	DEBUG	[2147483649] Frame script registered
+1540554167108	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540554167117	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540554167119	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540554167163	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for about:neterror?e=connectionFailure&u=http%3A//localhost%3A8080/users/register/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8080.
+1540554167185	Marionette	INFO	Stopped listening on port 38859
+1540554167218	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
