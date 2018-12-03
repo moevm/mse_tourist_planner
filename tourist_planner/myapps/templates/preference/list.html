@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}
+    <link rel="stylesheet" href="/static/main/css/card.css">
+    <script src="/static/main/js/preferences.js"></script>
+{% endblock %}
+
+   {% block content %}
+
+{% for pref in preferences %}
+    <div class="row" style="height: 15px"></div>
+    <div class="container-fluid">
+        <div class="row" style="background-image: url('/static/images/back.jpg')">
+            <div class="col-lg-3 col-md-3 col-sm-2 colum">
+                <p>
+                </p>
+            </div>
+        <div class="col-lg-6 col-md-6 col-sm-8 colum"  style="background: #ffffff">
+         <div style="border: 3px solid #000000">
+            <div class="product-wrap">
+             <div class="product-image">
+              <div class="shadow"></div>
+               <div class="actions">
+               <div class="actions-btn">
+              </div>
+           </div>
+      </div>
+    </div>
+  <div class="product-list">
+   <h2><a href="https://www.cpmow.ru/">{{pref.hotel_name}}</a></h2>
+   <h3>Город</h3>
+    <h2>{{pref.place}}</h2>
+    <label>Дата заселения</label>
+    <h3>{{pref.start_date}}</h3>
+   <label>Дата выселения</label>
+    <h3>{{pref.end_date}}</h3>
+       <div class="price">&#8381; {{pref.hotel_price}}</div>
+   <button type="button" class="btn-danger hidden">Изменить выбор</button>
+  </div>
+         </div>
+</div>
+        <div class="col-lg-3 col-md-3 col-sm-2 colum">
+            <p>
+            </p>
+        </div>
+    </div>
+</div>
+{% endfor %}
+   {% endblock %}

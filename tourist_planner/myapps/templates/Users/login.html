@@ -1,21 +1,28 @@
     {% extends "base.html" %}
+    {% block title %}
+        <link rel="stylesheet" href="/static/main/css/login.css">
+    {% endblock %}
     {% block content %}
      <div class="container">
       <div class="row">
           <div class="col-sm-2 col-md-2 col-lg-2"></div>
             <div class="col-xs-12 col-sm-10 col-md-8 col-lg-8">
                 <div class="container-fluid" style="font-size: 14pt">
-                    <form method="POST" action="." class="form">
-                        <p><label class="label" style="color: #0f0f0f">Введите Email</label>
-                        <input type="email" required name="login">
-                        </p>
-                        <p><label class="label" style="color: #0f0f0f">Введите Пароль</label>
-                        <input type="password" required name="password">
-                        </p>
-                        <input type="submit" value="Sign In" class="button green">
+                    <div class="container-fluid" style="font-size: 14pt">
+                   <form class="transparent">
+                     <div class="form-inner">
+                        <h3>Регистрация</h3>
+                         <label for="username">Имя пользователя</label>
+                         <input type="email" name="login" required id="username">
+                         <label for="password">Пароль</label>
+                         <input id="password" name="password" required type="password">
+                            <input type="checkbox" id="custom-checkbox">
+                        <label for="custom-checkbox">Запомнить меня</label>
+                        <input type="submit" value="Отправить">
+                     </div>
                     </form>
                     <div class="row">
-                        <p><a href="{{ url_for('users.register') }}">Нет аккаунта? Зарегистрируйтесь</a></p>
+                        <p class="text-center"><a href="{{ url_for('users.register') }}">Нет аккаунта? Зарегистрируйтесь</a></p>
                     </div>
                 </div>
                 </div>

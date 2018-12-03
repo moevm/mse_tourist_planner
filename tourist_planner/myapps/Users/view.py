@@ -34,15 +34,14 @@ def logout():
 
 @user.route('/login/', methods=['GET', 'POST'])
 def login():
-    form = LoginForm(request.form)
-    if request.method == "POST" and form.validate():
-        user = User.objects(login=form.login.data).first()
-        if user and user.password == form.password.data:
-            session['user_id'] = user.login
-            flash('Welcome %s', user.name)
-            return redirect(url_for('users.home'))
-        flash('Wrong email or password')
-    return render_template("Users/login.html", form=form)
+    print(request)
+    user = User.objects(login=request.args.get('login')).first()
+    if user and user.password == request.args.get('password'):
+        session['user_id'] = user.login
+        flash('Welcome %s', user.name)
+        return redirect(url_for('users.home'))
+    flash('Wrong email or password')
+    return render_template("Users/login.html")
 
 
 @user.route('/register/', methods=['POST', 'GET'])

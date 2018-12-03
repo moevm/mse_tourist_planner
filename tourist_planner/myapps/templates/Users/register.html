@@ -1,4 +1,7 @@
   {% extends "base.html" %}
+    {% block title %}
+        <link rel="stylesheet" href="/static/main/css/login.css">
+    {% endblock %}
     {% block content %}
  {% from "_formhelpers.html" import render_field %}
        <div class="container">
@@ -6,16 +9,20 @@
           <div class="col-sm-2 col-md-2 col-lg-2"></div>
             <div class="col-xs-12 col-sm-10 col-md-8 col-lg-8">
                 <div class="container-fluid" style="font-size: 14pt">
-                    <form method=post>
-                    <dl>
-                    {{ render_field(form.username) }}
-                    {{ render_field(form.login) }}
-                    {{ render_field(form.password) }}
-                    {{ render_field(form.confirm) }}
-                    </dl>
-                 <p><input type=submit value=Register>
+                    <p class="container-fluid" style="font-size: 14pt">
+                   <form method="post" action="." class="transparent">
+                     <div class="form-inner">
+                        <h3>Регистрация</h3>
+                         <label for="username">Имя пользователя</label>
+                         <input type="text" id="username">
+                         <label for="password">Пароль</label>
+                         <input id="password" type="password">
+                            <input type="checkbox" id="custom-checkbox">
+                        <label for="custom-checkbox">Запомнить меня</label>
+                        <input type="submit" value="Отправить">
+                     </div>
                     </form>
-                    <a href="{{url_for('users.login')}}">Уже зарешистрированы? Авторизироваться</a>
+                        <p class="text-center"<a href="{{url_for('users.login')}}">Уже зарешистрированы? Авторизироваться</a></p>
                 </div>
             </div>
       </div>

@@ -25,8 +25,8 @@ def not_found(error):
 def home_page():
     users = User.objects.all()
     if users:
-        return render_template("base.html", users=users), 200
-    return render_template("base.html"), 200
+        return render_template("mainpage.html", users=users), 200
+    return render_template("mainpage.html"), 200
 
 
 from myapps.Users.view import user as userModule
