@@ -19,4 +19,4 @@ https://docs.google.com/presentation/d/1dLA5Zbl31n2BI0_apdgr-h92MP_q-FGb3oKKEZQh
 * Запуск сервера:  
 `python3 run.py ` 
 
-по умолчанию сервер будет доступен на localhost:8080  
+по умолчанию сервер будет доступен на http://127.0.0.1:8000/ 
