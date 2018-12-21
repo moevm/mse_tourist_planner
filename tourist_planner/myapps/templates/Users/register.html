@@ -10,19 +10,21 @@
             <div class="col-xs-12 col-sm-10 col-md-8 col-lg-8">
                 <div class="container-fluid" style="font-size: 14pt">
                     <p class="container-fluid" style="font-size: 14pt">
-                   <form method="post" action="." class="transparent">
+                   <form class="transparent" method="post" action="register/add">
                      <div class="form-inner">
                         <h3>Регистрация</h3>
                          <label for="username">Имя пользователя</label>
-                         <input type="text" id="username">
+                         <input type="text" id="username" name="username">
+                         <label>Логин пользователя</label>
+                         <input type="email" name="login" required id="login">
                          <label for="password">Пароль</label>
-                         <input id="password" type="password">
+                         <input id="password" name="password" required type="password">
                             <input type="checkbox" id="custom-checkbox">
                         <label for="custom-checkbox">Запомнить меня</label>
                         <input type="submit" value="Отправить">
                      </div>
                     </form>
-                        <p class="text-center"<a href="{{url_for('users.login')}}">Уже зарешистрированы? Авторизироваться</a></p>
+                        <p class="text-center"><a href="{{url_for('users.login')}}">Уже зарешистрированы? Авторизироваться</a></p>
                 </div>
             </div>
       </div>

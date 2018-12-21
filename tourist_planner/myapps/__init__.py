@@ -28,6 +28,10 @@ def home_page():
         return render_template("mainpage.html", users=users), 200
     return render_template("mainpage.html"), 200
 
+@app.route('/slider')
+def slider():
+    return render_template("slider.html")
+
 
 from myapps.Users.view import user as userModule
 app.register_blueprint(userModule)
