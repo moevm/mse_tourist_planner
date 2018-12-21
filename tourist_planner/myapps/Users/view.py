@@ -1,7 +1,6 @@
 from myapps.Users.models import User
 from flask import redirect, request, Blueprint, flash, g, session, url_for, render_template
 from myapps.Users.decorator import requires_login
-from myapps.Users.forms import LoginForm, RegisterForm
 
 user = Blueprint('users', __name__, url_prefix='/users')
 
@@ -32,30 +31,44 @@ def logout():
     return redirect(url_for('users.home', _external=True))
 
 
-@user.route('/login/', methods=['GET', 'POST'])
-def login():
-    print(request)
-    user = User.objects(login=request.args.get('login')).first()
-    if user and user.password == request.args.get('password'):
-        session['user_id'] = user.login
-        flash('Welcome %s', user.name)
-        return redirect(url_for('users.home'))
-    flash('Wrong email or password')
+@user.route('/login')
+def login_form():
     return render_template("Users/login.html")
 
 
-@user.route('/register/', methods=['POST', 'GET'])
+@user.route('/login/add', methods=['GET', 'POST'])
+def login():
+    if request.method == "POST":
+        user = User.objects(login=request.form.get('login')).first()
+        print(user)
+        if user and user.password == request.form.get('password'):
+            session['user_id'] = user.login
+            flash('Welcome %s', user.name)
+            return redirect(url_for('users.home'))
+    return redirect("/users/login")
+
+
+@user.route('/register')
+def register_form():
+    return render_template("Users/register.html")
+
+
+@user.route('/register/add', methods=['POST', 'GET'])
 def register():
-    form = RegisterForm(request.form)
-    if request.method == "POST" and form.validate():
-        model = User(name=form.username.data, login=form.login.data, password=form.password.data)
+    print(request)
+    print(request.form)
+    if request.method == "POST":
+        model = User(name=request.form.get("username"), login=request.form.get("login"),
+                     password=request.form.get("password"))
+        print(request.args.get("login"))
         try:
             model.save()
             session['user_id'] = model.login
             flash('Thanks for registering')
             return redirect(url_for('users.home'))
-        except:
+        except Exception as err:
+            print(err)
             pass
-    return render_template("Users/register.html", form=form)
+    return redirect("/users/register")
 
 

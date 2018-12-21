@@ -3,12 +3,13 @@
  {% block title %}
     <link href="/static/main/css/prefform.css" rel="stylesheet">
     <script src="/static/main/js/pref.js"></script>
+   <link href="../static/main/css/slider.css" rel="stylesheet">
  {% endblock %}
  {% block content %}
        <div class="container">
       <div class="row">
                 <div class="container-fluid" style="font-size: 14pt">
-                   <form id="myform" class="transparent" method="post" action="/preference/form_add">
+                   <form id="myform" name="HotelForm" class="transparent" method="post" action="/preference/form_add">
                      <div id="params">
                        <div class="form-inner">
                         <h3>Поиск отеля</h3>
@@ -22,7 +23,7 @@
                          <input type="number" id="max_price" name="max_price" min="0">
                          <label>Город</label>
                          <input type="text" id="city" name="city">
-                         <button type="button" class="btn btn-primary" id="getreq">Получить</button>
+
                            <input type="hidden" id="other-fields" name="other_fields">
                            <div class="collapse" id="hide" style="color: black">
                                <div id="for_select">
@@ -30,10 +31,14 @@
                                </div>
                                <div id="card"></div>
                            </div>
-                        <input id="submit_btn" type="submit" value="Отправить">
+                        <button type="button" class="btn center btn-primary" id="getreq">Получить</button>
+                     </div>
                      </div>
                     </form>
                 </div>
       </div>
        </div>
+    <div class="container-fluid" id="hotels">
+    </div>
+ <script src = "../static/main/js/slider.js"></script>
     {% endblock %}

@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  <link href="../static/main/css/slider.css" rel="stylesheet">
+{% endblock %}
+{% block content %}
+<div class="container-fluid">
+ <div class="row" id="#27926062" ><div class="col-lg-1 col-md-1 col-sm-0"></div><div class="col-lg-10 col-md-10 col-sm-12"><div class="row"><div class="col-lg-6 col-md-6 col-sm-12"><div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic"{{pref.hotel_name}} data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic"{{pref.hotel_name}} data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic"{{pref.hotel_name}} data-slide-to="2"></li>
+                                </ol>
+                             <div class="carousel-inner" role="listbox"><div class="item active"><img src="https://photo.hotellook.com/image_v2/limit/3815180466/800/520.auto" alt="Не удалось загрузить фото">
+                                  <div class="carousel-caption">
+                                  </div>
+                                  </div><div class="item"><img src={{pref.hotel_picture[0}} alt="Не удалось загрузить фото">
+                                  <div class="carousel-caption">
+                                  </div>
+                                  </div><div class="item"><img src="https://photo.hotellook.com/image_v2/limit/3815180462/800/520.auto" alt="Не удалось загрузить фото">
+                                  <div class="carousel-caption">
+                                  </div>
+                                  </div></div>
+                            <a class="left carousel-control" href="#carousel-example-generic"
+                                role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic"
+                                role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">></span>
+                            <span class="sr-only">Next</span>
+                            </a>
+                            </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-0"></div>
+                            </div>
+                            </div>
+                            <div class="col-lg-1 col-md-1 col-sm-0"></div>
+                            </div><div class="row" id="#333559" ><div class="col-lg-1 col-md-1 col-sm-0"></div><div class="col-lg-10 col-md-10 col-sm-12"><div class="row"><div class="col-lg-6 col-md-6 col-sm-12"><div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                </ol>
+                             <div class="carousel-inner" role="listbox"><div class="item active"><img src="https://photo.hotellook.com/image_v2/limit/6650876837/800/520.auto" alt="Не удалось загрузить фото">
+                                  <div class="carousel-caption">
+                                  </div>
+                                  </div><div class="item"><img src="https://photo.hotellook.com/image_v2/limit/7011302995/800/520.auto" alt="Не удалось загрузить фото">
+                                  <div class="carousel-caption">
+                                  </div>
+                                  </div><div class="item"><img src="https://photo.hotellook.com/image_v2/limit/7011302974/800/520.auto" alt="Не удалось загрузить фото">
+                                  <div class="carousel-caption">
+                                  </div>
+                                  </div></div>
+                            <a class="left carousel-control" href="#carousel-example-generic"
+                                role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic"
+                                role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">></span>
+                            <span class="sr-only">Next</span>
+                            </a>
+  </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-0"></div>
+                            </div>
+                            </div>
+                            <div class="col-lg-1 col-md-1 col-sm-0"></div>
+                            </div>
+</div>
+
+<script src = "../static/main/js/slider.js"></script>
+
+{% endblock %}
