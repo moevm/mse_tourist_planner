@@ -9,10 +9,10 @@
 {% for pref in preferences %}
     <div class="row" style="height: 15px"></div>
     <div class="container-fluid">
-        <div class="row" style="background-image: url('/static/images/back.jpg'); z-index: -1">
+        <div class="row">
             <div class="col-lg-2 col-md-2 col-sm-1 colum">
             </div>
-        <div class="col-lg-8 col-md-8 col-sm-10 colum" style="background-color: #ffffff; z-index: 0">
+        <div class="col-lg-8 col-md-8 col-sm-10 colum">
             <div class="row">
              <h3 class="text-center">{{pref.hotel_name}}</h3>
                 <div class="col-lg-8 col-md-8 col-sm-8 colum">
@@ -66,13 +66,8 @@
                          {{pref.hotel_price}}
                      </p>
                      <p>
-                         {% if not pref.shared %}
-                         <button class="btn-primary btn-share" id="btn{{pref.hotel_name}}"
-                                 data-name="{{pref.hotel_name}}">Поделиться</button>
-                         {% else %}
-                         <button class="btn-danger btn-share" id="btn{{pref.hotel_name}}"
-                                 data-name="{{pref.hotel_name}}">Скрыть</button>
-                         {% endif %}
+                         <button class="btn-primary btn-sub" id="btn{{pref.hotel_name}}"
+                                 data-name="{{pref.hotel_name}}">Откликнуться</button>
                      </p>
                 </div>
             </div>
