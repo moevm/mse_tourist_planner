@@ -1,4 +1,5 @@
 from .models import Preference
+
 from flask import redirect, request, Blueprint, flash, g, session, url_for, render_template
 from ..Users.decorator import requires_login
 from ..Users.models import User
@@ -11,7 +12,6 @@ def before_request():
     g.user = None
     if 'user_id' in session:
         g.user = User.objects(login=session['user_id']).first()
-
 
 @preference.route('/add')
 @requires_login
@@ -55,6 +55,7 @@ def all_pref():
     return render_template("preference/list.html", preferences=preferences_list)
 
 
+
 @preference.route('/share', methods=['GET', 'POST'])
 def share():
     import json
@@ -95,3 +96,4 @@ def share_submit():
     new_pref.save()
     print(pref.shared)
     return render_template("preference/list.html", preferences=pref)
+
