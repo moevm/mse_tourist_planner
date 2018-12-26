@@ -148,3 +148,10 @@ li.pull-right{
   height: 100%;
   width: auto;
 }
+
+.glyphicon {
+  color: white;
+  font-size: 30px;
+  padding: 6px;
+  margin: 10px;
+}
