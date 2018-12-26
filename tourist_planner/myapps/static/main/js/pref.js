@@ -11,6 +11,7 @@ var selected;
 var hotels_price = {};
 var photo_src;
 var hotel_render_list = '';
+var hotel_render_extra_list = '';
 
 
 window.onload = function (){
@@ -29,7 +30,6 @@ window.onload = function (){
                 get_prices();
                 document.getElementById("hotel").addEventListener("change",function () {
                     console.log("lol");
-                    get_card();
                 });
             })
             .catch(err => {
@@ -41,18 +41,27 @@ window.onload = function (){
 function get_prices() {
         options = null;
         hotels_price = {};
-        fetch("http://engine.hotellook.com/api/v2/cache.json?location=Moscow&currency=rub&checkIn="+start_date+"&checkOut="+end_date+"&limit=10")
+        fetch("http://engine.hotellook.com/api/v2/cache.json?location="+place+"&currency=rub&checkIn="+start_date+"&checkOut="+end_date+"&limit=25")
         .then(res => res.json())
         .then(response => {
             let hotels_list = [];
+            let hotel_extra_list = [];
             for(let i in response) {
                 if((parseFloat(min_price) <= parseFloat(response[i].priceAvg)) &&
                     ((parseFloat(max_price) >= parseFloat(response[i].priceAvg)))) {
                         console.log(response[i]);
                         hotels_list[i] = response[i];
                 }
+                else
+                    hotel_extra_list.push(response[i]);
             }
-            create_hotels_list(hotels_list);
+            hotel_extra_list.sort( (a,b) => {
+               if (a.priceAvg >= b.priceAvg)
+                   return 1;
+               if (a.priceAvg < b.priceAvg)
+                   return -1;
+            });
+            create_hotels_list(hotels_list, hotel_extra_list);
 
         })
         .catch(err => {
@@ -60,17 +69,35 @@ function get_prices() {
         })
 }
 
-function create_hotels_list(hotels_list) {
+function create_hotels_list(hotels_list, hotels_extra_list) {
     hotel_render_list = '';
-    for (let i in hotels_list) {
-        create_card(hotels_list[i]);
+    hotel_render_extra_list = '';
+    console.log(hotels_list);
+    console.log(hotels_extra_list);
+    if (hotels_list.length === 0) {
+        console.log("empty lol");
+        $("#hotels").html(`<h2 class="text-center">
+                        По вашему запросу не найдено ни одного отеля, посмотрите альтернативные варианты</h2>`);
+    }
+    else {
+        $("#hotels").html(`<h2 class="text-center">Результаты по вашему запросу</h2>`);
+        for (let i in hotels_list) {
+            create_card(hotels_list[i], 1);
+        }
+    }
+    $("#extra_hotels").html(`<h2 class="text-center"> Альтернативные варианты </h2>`);
+    for (let i = 0; i < hotels_extra_list.length; ++i) {
+        if(i > 10)
+            break;
+        create_card(hotels_extra_list[i], 2);
     }
     console.log("hotels",hotel_render_list);
-    document.getElementById("hotels").innerHTML = hotel_render_list;
+    console.log("hotels extra", hotel_render_extra_list);
 }
 
 
-function create_card(hotel) {
+function create_card(hotel, point) {
+
     let hotel_render = `<div class="row" id="#`+ hotel.hotelId+ `" >`;
     var hotel_id = hotel.hotelId;
     hotel_render += `<div class="col-lg-1 col-md-1 col-sm-0"></div>`;
@@ -130,7 +157,10 @@ function create_card(hotel) {
                             </div>
                             <div class="col-lg-1 col-md-1 col-sm-0"></div>
                             </div>`;
+            if(point === 1)
                     $("#hotels").append(hotel_render);
+            else if(point === 2)
+                    $("#extra_hotels").append(hotel_render);
             document.getElementById('button'+hotel.hotelId).addEventListener('click', function () {
                         console.log('kek');
                         let id = this.id;

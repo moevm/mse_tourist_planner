@@ -17,7 +17,7 @@ window.onload = function () {
              },
                 dataType: "json"
         });
-            location.reload();
+            window.location.href=window.location.href
         })
     }
 
@@ -36,7 +36,7 @@ window.onload = function () {
              },
                 dataType: "json"
         });
-            location.reload();
+            window.location.href=window.location.href
         })
     }
 };

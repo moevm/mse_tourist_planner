@@ -23,6 +23,7 @@ h1{
   padding:0;
   margin:0;
   list-style:none;
+  z-index: 100;
 }
 .nav>ul>li:hover>ul li a{
   opacity:1;
@@ -146,4 +147,11 @@ li.pull-right{
     margin-top: 5pt;
   height: 100%;
   width: auto;
+}
+
+.glyphicon {
+  color: white;
+  font-size: 30px;
+  padding: 6px;
+  margin: 10px;
 }
