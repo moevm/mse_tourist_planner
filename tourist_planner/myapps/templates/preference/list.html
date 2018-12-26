@@ -7,6 +7,7 @@
    {% block content %}
 
 {% for pref in preferences %}
+{% if pref %}
     <div class="row" style="height: 15px"></div>
     <div class="container-fluid">
         <div class="row" style="background-image: url('/static/images/back.jpg'); z-index: -1">
@@ -66,12 +67,12 @@
                          {{pref.hotel_price}}
                      </p>
                      <p>
-                         {% if not pref.shared %}
-                         <button class="btn-primary btn-share" id="btn{{pref.hotel_name}}"
-                                 data-name="{{pref.hotel_name}}">Поделиться</button>
-                         {% else %}
+                         {% if pref.shared %}
                          <button class="btn-danger btn-share" id="btn{{pref.hotel_name}}"
                                  data-name="{{pref.hotel_name}}">Скрыть</button>
+                         {% else %}
+                         <button class="btn-primary btn-share" id="btn{{pref.hotel_name}}"
+                                 data-name="{{pref.hotel_name}}">Поделиться</button>
                          {% endif %}
                      </p>
                 </div>
@@ -81,6 +82,7 @@
             </div>
     </div>
 </div>
+{% endif %}
 {% endfor %}
 <script src="/static/main/js/slider.js"></script>
 <script src="/static/main/js/share.js"></script>
