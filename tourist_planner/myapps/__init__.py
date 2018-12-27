@@ -3,6 +3,7 @@ from flask import Flask, render_template, redirect, request
 from flask_mongoengine import MongoEngine
 from flask_bootstrap import Bootstrap
 from myapps.Users.models import User
+import os
 
 # Define the WSGI application object
 app = Flask(__name__)
@@ -14,6 +15,8 @@ app.config['MONGODB_SETTINGS'] = {
     'port': 27017
 }
 db = MongoEngine(app)
+UPLOAD_FOLDER = 'myapps/static/image_uploads'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 @app.errorhandler(404)
 def not_found(error):

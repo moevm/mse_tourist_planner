@@ -7,6 +7,7 @@
    {% block content %}
 
 {% for pref in preferences %}
+{% if pref %}
     <div class="row" style="height: 15px"></div>
     <div class="container-fluid">
         <div class="row">
@@ -76,6 +77,7 @@
             </div>
     </div>
 </div>
+{% endif %}
 {% endfor %}
 <script src="/static/main/js/slider.js"></script>
 <script src="/static/main/js/share.js"></script>

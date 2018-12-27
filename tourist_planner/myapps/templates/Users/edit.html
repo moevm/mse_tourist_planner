@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}
+
+    <link href="/static/main/css/profile.css" rel="stylesheet">
+{% endblock %}
+
+   {% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-1 colum">
+                <p>
+                </p>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-10 colum">
+                <form action="edit/add" method="post" enctype="multipart/form-data">
+                    <p>
+                        <label>Введите ваше имя</label>
+                        <input name="name" type="text" placeholder="Станислав)))">
+                    </p>
+                    <p>
+                        <label>Загрузите аватар</label>
+                        <input type="file" name="avatar" size="4096" accept="image/*">
+                    </p>
+                    <p>
+                        <label>Напишите немного о себе, это будут читать другие пользователи</label>
+                        <textarea placeholder="" name="info">
+                        </textarea>
+                    </p>
+                    <p>
+                        <label>Напишите телефон для связи</label>
+                        <input name="tel" type="tel" placeholder="+7-xxx-xxx-xxxx" pattern="\+\d{1}[\-]\d{3}[\-]\d{3}[\-]\d{4}">
+                    </p>
+                    <p>
+                        <label>Укажите ваш город</label>
+                        <input type="text" name="city" placeholder="Санкт-Петербург">
+                    </p>
+                    <p>
+                        <input type="submit" value="Принять">
+                    </p>
+                </form>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-1 colum">
+                <p>
+                </p>
+            </div>
+        </div>
+    </div>
+   {% endblock %}

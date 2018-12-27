@@ -36,6 +36,7 @@ def pars_form():
         new_pref.hotel_price = field_dict['hotel_price']
         new_pref.hotel_picture = field_dict['hotel_picture']
         new_pref.shared = False
+        new_pref.user_list = [user]
         print(new_pref)
         try:
             new_pref.save()
@@ -49,15 +50,14 @@ def pars_form():
 @requires_login
 def all_pref():
     login = session['user_id']
+    #Preference.objects.all().delete()
     user = User.objects(login=login).first()
-    preferences_list = Preference.objects(user=user)
-    print(preferences_list.first().hotel_picture)
+    preferences_list = Preference.objects.filter(user_list__contains=user)
     return render_template("preference/list.html", preferences=preferences_list)
 
 
 @preference.route('/share', methods=['GET', 'POST'])
 def share():
-    import json
     r = request.get_json()
     print(r["name"])
     pref = Preference.objects(hotel_name=r["name"]).first()
@@ -72,7 +72,6 @@ def share():
 def render():
     print('lolkek')
     pref = Preference.objects(shared=True)
-    print(pref.first().hotel_name)
     return render_template("preference/shared.html", preferences=pref)
 
 @requires_login
@@ -84,14 +83,12 @@ def share_submit():
     print(pref)
     login = session["user_id"]
     user = User.objects(login=login).first()
-    new_pref = Preference(user=user)
-    new_pref.start_date = pref.start_date
-    new_pref.end_date = pref.end_date
-    new_pref.place = pref.place
-    new_pref.hotel_name = pref.hotel_name
-    new_pref.hotel_price = pref.hotel_price
-    new_pref.hotel_picture = pref.hotel_picture
-    new_pref.shared = True
-    new_pref.save()
+    list = pref.user_list
+    print(list)
+    list.append(user)
+    print(list)
+    pref.user_list = list
     print(pref.shared)
+    print(pref.user_list)
+    pref.save()
     return render_template("preference/list.html", preferences=pref)

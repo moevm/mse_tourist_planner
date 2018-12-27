@@ -155,3 +155,11 @@ li.pull-right{
   padding: 6px;
   margin: 10px;
 }
+
+.small {
+  float: left;
+  color: blue;
+  font-size: 15px;
+  padding: 6px;
+  margin: 7px;
+}

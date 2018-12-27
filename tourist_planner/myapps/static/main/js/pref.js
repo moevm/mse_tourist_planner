@@ -12,7 +12,8 @@ var hotels_price = {};
 var photo_src;
 var hotel_render_list = '';
 var hotel_render_extra_list = '';
-
+var start_date_valid = false;
+var end_date_valid = false;
 
 window.onload = function (){
     const button = document.getElementById("getreq");
@@ -162,27 +163,72 @@ function create_card(hotel, point) {
             else if(point === 2)
                     $("#extra_hotels").append(hotel_render);
             document.getElementById('button'+hotel.hotelId).addEventListener('click', function () {
-                        console.log('kek');
-                        let id = this.id;
-                        id = id.substring(6,id.length);
-                        console.log(id);
-                        let img1 = document.getElementById("img"+1+id);
-                        let img2 = document.getElementById("img"+2+id);
-                        let img0 = document.getElementById("img"+0+id);
-                        console.log(img1.src);
-                        console.log(img2.src);
-                        console.log(img0.src);
-                        let card = document.getElementById("card"+id);
-                        console.log(card.dataset.name);
-                        console.log(card.dataset.price);
+                if(end_date_valid && start_date_valid) {
+                    console.log('kek');
+                    let id = this.id;
+                    id = id.substring(6, id.length);
+                    console.log(id);
+                    let img1 = document.getElementById("img" + 1 + id);
+                    let img2 = document.getElementById("img" + 2 + id);
+                    let img0 = document.getElementById("img" + 0 + id);
+                    console.log(img1.src);
+                    console.log(img2.src);
+                    console.log(img0.src);
+                    let card = document.getElementById("card" + id);
+                    console.log(card.dataset.name);
+                    console.log(card.dataset.price);
 
-                        var other_fields = {};
-                        other_fields.hotel_name = card.dataset.name;
-                        other_fields.hotel_picture = [img1.src,img2.src,img0.src];
-                        console.log(other_fields.hotel_picture);
-                        other_fields.hotel_price = card.dataset.price;
-                        $('#other-fields').val(JSON.stringify(other_fields));
-                        document.HotelForm.submit();
+                    var other_fields = {};
+                    other_fields.hotel_name = card.dataset.name;
+                    other_fields.hotel_picture = [img1.src, img2.src, img0.src];
+                    console.log(other_fields.hotel_picture);
+                    other_fields.hotel_price = card.dataset.price;
+                    $('#other-fields').val(JSON.stringify(other_fields));
+                    document.HotelForm.submit();
+                }
                     });
                 $("#card" + hotel.hotelId).data(sorce);
             })}
+
+$("#start_date").blur(function () {
+    console.log("start_lol");
+  let entered_date = new Date(this.value);
+  let today = new Date();
+  today.setMinutes(0);
+  today.setSeconds(0);
+  today.setMilliseconds(0);
+  console.log(this.value);
+  console.log(entered_date);
+  console.log(today);
+  if(today <= entered_date) {
+      start_date_valid = true;
+      $(this).css('background-color', '')
+  }
+  else
+      $(this).css('background-color', 'red')
+}).focus(function () {
+    console.log("start_lol");
+    start_date_valid = false;
+});
+
+$("#end_date").blur(function () {
+    console.log("end_lol");
+    let end_entered_date = new Date(this.value);
+    let start_entered_date = new Date($("#start_date").val());
+    let today = new Date();
+    today.setMinutes(0);
+    today.setSeconds(0);
+    today.setMilliseconds(0);
+    console.log(end_entered_date);
+    console.log(start_entered_date);
+    console.log(today);
+    if((end_entered_date > start_entered_date)&&(start_entered_date >= today)) {
+        end_date_valid = true;
+         $(this).css('background-color', '')
+    }
+    else
+         $(this).css('background-color', 'red')
+}).focus(function () {
+    console.log("end_lol");
+    end_date_valid = false;
+});
