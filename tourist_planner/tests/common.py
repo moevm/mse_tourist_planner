@@ -1,0 +1,7 @@
+BASE_URL = 'http://localhost:8000'
+USERS_REGISTER_URL = BASE_URL + '/users/register'
+USERS_LOGIN_URL = BASE_URL + '/users/login'
+USERS_ME = BASE_URL + '/users/me'
+USERS_PREFERENCE = BASE_URL + '/preference'
+LOGIN = 'test12@gmail.com'
+PASSWORD = '12345'

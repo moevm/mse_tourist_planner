@@ -63,7 +63,9 @@ def share():
     print(r["name"])
     pref = Preference.objects(hotel_name=r["name"]).first()
     print(pref)
-    pref.shared = not pref.shared
+    user = User.objects(login=session['user_id'])
+    if pref.user == user:
+        pref.shared = not pref.shared
     print(pref.shared)
     pref.save()
     return redirect("/")
@@ -86,7 +88,10 @@ def share_submit():
     user = User.objects(login=login).first()
     list = pref.user_list
     print(list)
-    list.append(user)
+    if user in list:
+        list.remove(user)
+    else:
+        list.append(user)
     print(list)
     pref.user_list = list
     print(pref.shared)

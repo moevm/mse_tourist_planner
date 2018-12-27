@@ -17,11 +17,10 @@
                          <input type="text" id="username" name="username">
                          <label>Логин пользователя</label>
                          <input type="email" name="login" required id="login">
-                         <label for="password">Пароль</label>
+                         <label for="password" id="pass">Пароль</label>
                          <input id="password" name="password" required type="password">
                             <input type="checkbox" id="custom-checkbox">
-                        <label for="custom-checkbox">Запомнить меня</label>
-                        <input type="submit" value="Отправить">
+                        <input type="submit" value="Отправить" id="submit_btn">
                      </div>
                     </form>
                         <p class="text-center"><a href="{{url_for('users.login')}}">Уже зарешистрированы? Авторизироваться</a></p>
