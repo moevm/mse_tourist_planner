@@ -27,12 +27,13 @@ def parse_form():
     model.name = request.form.get("name")
     model.description = request.form.get("info")
     model.phone = request.form.get("tel")
-    file = request.files['avatar']
-    if file:
-        filename = file.filename
-        print(filename)
-        file.save(os.path.join(current_app.config["UPLOAD_FOLDER"], filename))
-        model.avatar = '/static/image_uploads/' + filename
+    if 'avater' in request.files:
+        file = request.files['avatar']
+        if file:
+            filename = file.filename
+            print(filename)
+            file.save(os.path.join(current_app.config["UPLOAD_FOLDER"], filename))
+            model.avatar = '/static/image_uploads/' + filename
     else:
         model.avatar = '/static/images/no_avatar.png'
     model.save()
