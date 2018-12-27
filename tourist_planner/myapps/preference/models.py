@@ -14,6 +14,7 @@ class Preference(Document):
     hotel_picture = ListField(StringField(max_length=100, required=True))
     hotel_price = IntField(min_value=0, required=True)
     shared = BooleanField(default=False)
+    user_list = ListField(ReferenceField(document_type=User), required=True)
 
 
 

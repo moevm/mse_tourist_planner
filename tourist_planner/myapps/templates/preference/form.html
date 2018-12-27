@@ -2,7 +2,6 @@
 
  {% block title %}
     <link href="/static/main/css/prefform.css" rel="stylesheet">
-    <script src="/static/main/js/pref.js"></script>
    <link href="../static/main/css/slider.css" rel="stylesheet">
  {% endblock %}
  {% block content %}
@@ -18,9 +17,9 @@
                          <label>Дата выселения</label>
                          <input type="date" id="end_date" name="end_date">
                          <label>Минимальная цена</label>
-                         <input type="number" id="min_price" name="min_price" min="0">
+                         <input type="number" id="min_price" name="min_price" min="0" value="0">
                          <label>Максимальная цена</label>
-                         <input type="number" id="max_price" name="max_price" min="0">
+                         <input type="number" id="max_price" name="max_price" min="0" value="10000">
                          <label>Город</label>
                          <input type="text" id="city" name="city">
 
@@ -43,5 +42,6 @@
     <div class="container-fluid" id="extra_hotels">
 
     </div>
- <script src = "../static/main/js/slider.js"></script>
+     <script src="/static/main/js/pref.js"></script>
+     <script src = "../static/main/js/slider.js"></script>
     {% endblock %}

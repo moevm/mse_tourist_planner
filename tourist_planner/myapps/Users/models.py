@@ -1,5 +1,5 @@
 from mongoengine import Document
-from mongoengine import StringField, UUIDField
+from mongoengine import StringField, UUIDField, ImageField
 from flask_bcrypt import Bcrypt
 
 
@@ -7,6 +7,9 @@ class User(Document):
     name = StringField(max_length=20, required=True, unique=False)
     login = StringField(max_length=60, required=True, unique=True)
     password = StringField(max_length=60, required=True)
+    avatar = StringField(max_length=60, default="")
+    description = StringField(max_length=1000, default="")
+    phone = StringField(max_length=19, default="")
 
     def get_name(self):
         return self.name

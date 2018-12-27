@@ -1,6 +1,8 @@
 from myapps.Users.models import User
-from flask import redirect, request, Blueprint, flash, g, session, url_for, render_template
+from flask import redirect, request, Blueprint, flash, g, session, url_for, render_template, current_app
 from myapps.Users.decorator import requires_login
+from werkzeug.utils import secure_filename
+import os
 
 user = Blueprint('users', __name__, url_prefix='/users')
 
@@ -9,6 +11,32 @@ user = Blueprint('users', __name__, url_prefix='/users')
 def users():
     users = User.objects.all()
     return render_template('main.html', users=users)
+
+
+@user.route('/me/edit', methods=['GET', 'POST'])
+@requires_login
+def render_user_form():
+    return render_template("Users/edit.html", user=g.user)
+
+
+@user.route('/me/edit/add', methods=['GET', 'POST'])
+@requires_login
+def parse_form():
+    print(request.form)
+    model = g.user
+    model.name = request.form.get("name")
+    model.description = request.form.get("info")
+    model.phone = request.form.get("tel")
+    file = request.files['avatar']
+    if file:
+        filename = file.filename
+        print(filename)
+        file.save(os.path.join(current_app.config["UPLOAD_FOLDER"], filename))
+        model.avatar = '/static/image_uploads/' + filename
+    else:
+        model.avatar = '/static/images/no_avatar.png'
+    model.save()
+    return redirect("users/me")
 
 
 @user.route('/me/')
@@ -60,6 +88,7 @@ def register():
     if request.method == "POST":
         model = User(name=request.form.get("username"), login=request.form.get("login"),
                      password=request.form.get("password"))
+        model.avatar = '/static/images/no_avatar.png'
         print(request.args.get("login"))
         try:
             model.save()
@@ -70,5 +99,4 @@ def register():
             print(err)
             pass
     return redirect("/users/register")
-
 

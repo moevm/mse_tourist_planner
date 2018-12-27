@@ -7,18 +7,31 @@
    {% block content %}
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-2 colum">
-            <p>
-            </p>
+        <div class="col-lg-3 col-md-3 col-sm-2">
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-8 colum">
-            <p style="font-size: 16pt;text-align:center" id="hello">
-            Hi {{ user.login}}
-            </p>
+        <div class="col-lg-6 col-md-6 col-sm-8">
+            <div class="row">
+                <h2 class="text-center">{{user.name}}</h2>
+                <div class="col-lg-6 col-md-6">
+                    <p class="pull-right"><a href="/users/me/edit"><span class="glyphicon glyphicon-pencil small">
+                    </span></a></p>
+                    <img src={{user.avatar}}>
+                </div>
+                <div class="col-md-6 col-md-6">
+                    <p>
+                        <label>Номер телефона</label>
+                        <span>{{user.phone}}</span>
+                    </p>
+                    <p>
+                        <label>Обо мне</label>
+                        <p>
+                            {{user.description}}
+                        </p>
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-2 colum">
-            <p>
-            </p>
+        <div class="col-lg-3 col-md-3 col-sm-2">
         </div>
     </div>
 </div>
