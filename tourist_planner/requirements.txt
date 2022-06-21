@@ -23,7 +23,7 @@ Mako==1.0.7
 MarkupSafe==1.1.0
 matplotlib==3.0.0
 mongoengine==0.15.3
-numpy==1.15.4
+numpy==1.22.0
 oauth==1.0.1
 olefile==0.45.1
 pexpect==4.2.1
